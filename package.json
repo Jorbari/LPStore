@@ -1,0 +1,22 @@
+{
+  "name": "lpstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorbari/LPStore.git"
+  },
+  "author": "Jorbari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorbari/LPStore/issues"
+  },
+  "homepage": "https://github.com/Jorbari/LPStore#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
