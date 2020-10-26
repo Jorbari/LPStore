@@ -1,0 +1,32 @@
+.wrapper {
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+    }
+    &--text {
+
+        & > h3 {
+            color: $color_green;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        & > h5 {
+            color: $color_white;
+            font-size: 3.6rem;
+            font-weight: 600;
+            max-width: 47.0rem;
+            & > span {
+                display: block;
+            }
+        }
+            
+    }
+    &--img {
+        object-fit: cover;
+    }
+
+}

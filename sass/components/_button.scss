@@ -1,0 +1,13 @@
+.btn {
+    border-radius: 5rem;
+    padding: 1.3rem 4.2rem;
+    background: transparent;
+
+
+    &__primary {
+        border: .07rem solid $color_white;
+        color: $color_white;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+}
