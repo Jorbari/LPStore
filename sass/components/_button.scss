@@ -1,7 +1,19 @@
+@mixin btnHover {
+
+    transition: all .3s;
+
+    &:hover {
+        transform: translateY(-.8rem);
+    }
+}
+
 .btn {
     border-radius: 5rem;
-    padding: 1.3rem 4.2rem;
+    padding: 1.3rem 2rem;
     background: transparent;
+    cursor: pointer;
+
+    @include btnHover();
 
 
     &__primary {
@@ -10,4 +22,12 @@
         font-weight: 600;
         font-size: 1.2rem;
     }
+    &__green {
+        border: none;
+        color: $color_white;
+        background-color: $color_green;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
 }
+

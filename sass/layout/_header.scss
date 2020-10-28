@@ -1,11 +1,13 @@
 .header {
-    padding: 2.4rem 7.4rem;
+    padding: 3.1rem 6.4rem;
     background-color: rgba($color_white, .05);
     display: flex;
     justify-content: space-between;
+    height: $nav_height;
+    align-items: center;
 
-    &__logo {
-
+    &__login > .btn {
+        width: 12.6rem;
+        height: 4.586rem;
     }
-
 }

@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'silkaregular';
+    src: url('./Silka-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'silkaitalic';
+    src: url('./Silka-RegularItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
